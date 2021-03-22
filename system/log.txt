@@ -1,0 +1,46 @@
+- v0.1b
+  Hardware:
+    ESP32 peripheral circuit design.-ok
+    Deploy to the first device.-ok
+  Software:
+    Implemented the ESP32 POST request and got the data through the serial port.-ok
+    Send data from Arduino to the code for ESP32.-0k
+    The basic database structure is established.-ok
+    Simple PHP backend to communicate with the database.-ok
+    Simple front end chart and back end communication, data visualization. Charts are updated in real time.-ok
+    View the raw data feature.-ok
+    A mail notification system was deployed.-ok
+    Enhanced security, using encrypted transport.-ok
+- v0.2b
+  Web site:
+    fixed some bugs for email system. It is reliable and stable right now, check every 10 minutes. -ok
+    Adjusted the back-end execution efficiency, and accelerated the query speed of the database.-ok
+    Adjusted the user interface so that each plant displays its own chart.-ok
+    Added system upgrade log.-ok
+    adjusted UTC time zone to Honolulu time zone.-ok
+    fixed some chart bugs.-ok
+    Adjusted Arduino's communication protocol with ESP32 to run faster.-ok
+    created a new data base for temperature.-ok
+-v0.3b-current
+    rewrite the ESP32 program for temperature sensor.-ok
+    Optimized directory structure, but still compatible with older interfaces.-ok
+    (It is expected that the old interface will be removed to reduce the resource footprint after upgrading the ESP program on chamber1.)
+    start a new PHP backend to transfer temperature to database.-ok
+    add temperature function to main page.-ok
+    update the "check status page", it is easier to use right now.-ok
+    build two peripheral circuit for new ESP 32.Two ESP circuit boards were solidified.-OK
+    temperature program uploaded to ESP.-ok
+    rewrite Arduino program to transfer data to ESP module.-ok
+    add temperature function to system.-ok
+-v0.4b-next version
+    There are will no hardware changes in this version, just server optimization and interface adjustments.
+
+  in progress:
+    Convert the chart to a line chart.
+    adjusted the chart to support multi-chamber.
+    Displays multiple data in a single chart.
+    Add a filter.
+  suspended:
+    deploy ESP32 to all of the chambers.-action needed:
+      no any more converter, please buy more.
+    The data structure has been adjusted so that each flowerpot has its own data.
